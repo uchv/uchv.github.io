@@ -117,8 +117,24 @@
 
         <section>
             <div class="section-header">
-                <div>contact</div>
+                <div>Project 4: CAD Modeling Competition Entry</div>
                 <div><-- 004</div>
+            </div>
+            <div class="content left">
+                <p>For the <a href="https://www.geometry.at/aktivitaeten/mw-neu/mw-men-ergebnisse?id=193">16th Austria-wide CAD modeling competition</a>, 
+                    I modeled a subway train inside a (fictional) subway station. The project reached #1 in the nation-wide ranking! </p>
+            </div>
+            <div class="three_container">
+                <img src="images/UBahn_Render1.png">
+                <img src="images/UBahn_Render2.png">
+                <img src="images/UBahn_Render3.png">
+            </div>
+        </section>
+
+        <section>
+            <div class="section-header">
+                <div>contact</div>
+                <div><-- 005</div>
             </div>
             <div class="content left">
                 <p>Send me an email: ulrich.chvosta@outlook.com</p>
@@ -459,6 +475,10 @@
             font-size: var(--default-font-size);
             margin-bottom: 1rem;
         }
+        .content a {
+            color: var(--color-green);
+            text-decoration: underline;
+        }
         .right {
             float: right;
         }
@@ -494,6 +514,18 @@
         .stereo_container img {
             max-height: 150px; 
             margin-right: 1cm
+        }
+
+        .three_container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 1cm;
+            width: 100%;
+        }
+        .three_container img {
+            width: 30%;
+            height: auto;
         }
 
         .center_container {
